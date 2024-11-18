@@ -69,30 +69,30 @@ Adaptive-LIO: Enhancing Robustness and Precision through Environmental Adaptatio
     <th style="text-align:center">Ours</th>
   </tr>
   <tr>
-    <th style="text-align:center">industrial1</th>
-    <th style="text-align:center">4.485</th>
-    <th style="text-align:center">13.935</th>
-    <th style="text-align:center">x</th>
-    <th style="text-align:center">11.778</th>
-    <th style="text-align:center">21.815</th>
+    <th style="text-align:center">industrial1</td>
+    <th style="text-align:center">4.485</td>
+    <th style="text-align:center">13.935</td>
+    <th style="text-align:center">x</td>
+    <th style="text-align:center">11.778</td>
+    <th style="text-align:center">21.815</td>
     <th style="text-align:center">2.4824</th>
   </tr>
     <tr>
-    <th style="text-align:center">industrial2</th>
-    <th style="text-align:center">0.185</th>
-    <th style="text-align:center">2.467</th>
-    <th style="text-align:center">1.778</th>
-    <th style="text-align:center">9.547</th>
-    <th style="text-align:center">1.737</th>
+    <th style="text-align:center">industrial2</td>
+    <th style="text-align:center">0.185</td>
+    <th style="text-align:center">2.467</td>
+    <th style="text-align:center">1.778</td>
+    <th style="text-align:center">9.547</td>
+    <th style="text-align:center">1.737</td>
     <th style="text-align:center">0.107</th>
   </tr>
     <tr>
-    <th style="text-align:center">parking1</th>
-    <th style="text-align:center">1.81</th>
-    <th style="text-align:center">2.27</th>
-    <th style="text-align:center">3.164</th>
-    <th style="text-align:center">5.53</th>
-    <th style="text-align:center">1.77</th>
+    <th style="text-align:center">parking1</td>
+    <th style="text-align:center">1.81</td>
+    <th style="text-align:center">2.27</td>
+    <th style="text-align:center">3.164</td>
+    <th style="text-align:center">5.53</td>
+    <th style="text-align:center">1.77</td>
     <th style="text-align:center">0.492</th>
   </tr>
 
