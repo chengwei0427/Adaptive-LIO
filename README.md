@@ -13,7 +13,7 @@ Adaptive-LIO: Enhancing Robustness and Precision through Environmental Adaptatio
   <font color=#a0a0a0 size=2>Qisheng L1 mobile chassis.</font>
 </div>
 
-notes: The experimental platform is the Qisheng L1 mobile chassis, which features dual-wheel differential steering. It is equipped with a Velodyne VLP-16 and an external IMU, using an Intel Core i5 as the computing platform. Please note that our IMU and LiDAR have not undergone hardware time synchronization, and the extrinsics betweenthe LiDAR and IMU have not been strictly calibrated.
+**notes**: The experimental platform is the Qisheng L1 mobile chassis, which features dual-wheel differential steering. It is equipped with a Velodyne VLP-16 and an external IMU, using an Intel Core i5 as the computing platform. Please note that our IMU and LiDAR have not undergone hardware time synchronization, and the extrinsics betweenthe LiDAR and IMU have not been strictly calibrated.
 
 ##  Dataset
 
@@ -98,7 +98,20 @@ notes: The experimental platform is the Qisheng L1 mobile chassis, which feature
 
 </table>
 
+## comparison with others
+<div align="center"><img src="doc/comparison.png"  width="70%" /></div>
 
+<div align="center">
+  <div align="center">
+    <img src="doc/park1-01.png"  width="70%" />
+  </div>
+  <font color=#a0a0a0 size=2>The performance of all algorithms on the parking1 dataset.</font>
+</div>
 
-<div align="center"><img src="doc/park1-01.png"  width="70%" /></div>
-<div align="center"><img src="doc/park1-02.png"  width="70%" /></div>
+<div align="center">
+  <div align="center">
+    <img src="doc/park1-02.png"  width="70%" />
+  </div>
+  <font color=#a0a0a0 size=2>Z-axis errors.</font>
+</div>
+
