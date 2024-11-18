@@ -75,7 +75,7 @@ Adaptive-LIO: Enhancing Robustness and Precision through Environmental Adaptatio
     <td style="text-align:center">x</td>
     <td style="text-align:center">11.778</td>
     <td style="text-align:center">21.815</td>
-    <td style="text-align:center">**2.4824**</td>
+    <th style="text-align:center">2.4824</th>
   </tr>
     <tr>
     <td style="text-align:center">industrial2</td>
@@ -84,7 +84,7 @@ Adaptive-LIO: Enhancing Robustness and Precision through Environmental Adaptatio
     <td style="text-align:center">1.778</td>
     <td style="text-align:center">9.547</td>
     <td style="text-align:center">1.737</td>
-    <td style="text-align:center">**0.107**</td>
+    <th style="text-align:center">0.107</th>
   </tr>
     <tr>
     <td style="text-align:center">parking1</td>
@@ -93,7 +93,7 @@ Adaptive-LIO: Enhancing Robustness and Precision through Environmental Adaptatio
     <td style="text-align:center">3.164</td>
     <td style="text-align:center">5.53</td>
     <td style="text-align:center">1.77</td>
-    <td style="text-align:center">**0.492**</td>
+    <th style="text-align:center">0.492</th>
   </tr>
 
 </table>
