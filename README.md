@@ -1,5 +1,39 @@
-# adaptive_lio
-Adaptive-LIO: Enhancing Robustness and Precision through Environmental Adaptation in LiDAR Inertial Odometry
+<div align="center">
+    <h2><strong>Adaptive-LIO: Enhancing Robustness and Precision through Environmental Adaptation in LiDAR Inertial Odometry</strong></h2>
+</div>
+
+<div align="center">
+    <a href="https://github.com/chengwei0427" target='_blank'>Chengwei Zhao</a><sup>#,1,2</sup>&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/KJ-Falloutlast" target='_blank'>Kun hu</a><sup>#,3</sup>&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/jiejie567" target='_blank'>Jie Xu</a><sup>*,1,5</sup>&nbsp;&nbsp;&nbsp;
+    <a href="https://orcid.org/0000-0002-9108-8276" target='_blank'>Lijun Zhao</a><sup>*,1</sup>&nbsp;&nbsp;&nbsp;
+    <a href="https://orcid.org/0009-0009-0503-8810" target='_blank'>Baiwen Han</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+    <a href="https://orcid.org/0009-0005-3938-7454" target='_blank'>Kaidi Wu</a><sup>3</sup>
+    <a href="https://orcid.org/0009-0007-0403-8961" target='_blank'>Maoshan Tian</a><sup>4</sup>
+    <a href="https://github.com/snakehaihai" target='_blank'>Shenghai Yuan</a><sup>5</sup>
+    </br></br>
+    <sup>1</sup>HIT&nbsp;&nbsp;&nbsp;
+    <sup>2</sup>Qisheng Intelligent Techology&nbsp;&nbsp;&nbsp;
+    <sup>3</sup>CUMT(XuZhou)&nbsp;&nbsp;&nbsp;
+    <sup>4</sup>UESTC&nbsp;&nbsp;&nbsp;
+    <sup>5</sup> NTU
+    </br></br>
+    (#-co-first authors)        (*-corresponding authors)
+</div>
+
+<div align="center">
+    <a href="https://ieeexplore.ieee.pubapi.xyz/document/10806842" target='_blank'>
+        <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-lightblue">
+    </a>&nbsp;
+    <a href="https://hits.seeyoufarm.com">
+        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fchengwei0427%2FAdaptive-LIO&count_bg=%2300B48B&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"/>
+  </a>
+</div>
+
+# About
+The emerging Internet of Things (IoT) applications, such as driverless cars, have a growing demand for high-precision positioning and navigation. Nowadays, LiDAR inertial odometry becomes increasingly prevalent in robotics and autonomous driving. However, many current SLAM systems lack sufficient adaptability to various scenarios. Challenges include decreased point cloud accuracy with longer frame intervals under the constant velocity assumption, coupling of erroneous IMU information when IMU saturation occurs, and decreased localization accuracy due to the use of fixed-resolution maps during indoor-outdoor scene transitions. To address these issues, we propose a loosely coupled adaptive LiDAR-Inertial-Odometry named *Adaptive-LIO*, which incorporates adaptive segmentation to enhance mapping accuracy, adapts motion modality through IMU saturation and fault detection, and adjusts map resolution adaptively using multi-resolution voxel maps based on the distance from the LiDAR center. Our proposed method has been tested in various challenging scenarios, demonstrating the effectiveness of the improvements we introduce.
+
+<img src="doc/overview.png" align="center" width="60%">
 
 
 # Data Sequence without strict time synchronization and calibration
