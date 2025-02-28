@@ -90,11 +90,11 @@ The emerging Internet of Things (IoT) applications, such as driverless cars, hav
     <td style="text-align:center">315</td>
     <td style="text-align:center">0.0</td>
     <td style="text-align:center">Velodyne VLP-16</td>
-  </tr>
+  </tr>  
 
 </table>
 
-## end-to-end errors
+## End-to-end errors
 
 <table>
   <tr>
@@ -136,7 +136,7 @@ The emerging Internet of Things (IoT) applications, such as driverless cars, hav
 
 </table>
 
-## comparison with others
+## Comparison with others
 <div align="center"><img src="doc/comparison.png"  width="70%" /></div>
 
 <div align="center">
@@ -147,9 +147,11 @@ The emerging Internet of Things (IoT) applications, such as driverless cars, hav
 </div>
 
 <div align="center">
-  <div align="center">
+  <div align="center">    
     <img src="doc/park1-02.png"  width="70%" />
   </div>
-  <font color=#a0a0a0 size=2>Z-axis errors.</font>
+  <font color=#a0a0a0 size=2>Z-axis errors.</font> 
 </div>
 
+## Over-range detection
+![image](https://github.com/user-attachments/assets/a345ca50-69ea-49a2-8e38-7a8e7c9e3d4f)
