@@ -46,18 +46,6 @@ The emerging Internet of Things (IoT) applications, such as driverless cars, hav
 - \[2024.12\] - **Adaptive-lio** is accepted to JIOT 2024. :rocket:
 - \[2025.03\] - **Code release**
 
-# Data Sequence without strict time synchronization and calibration
-
-##  Platform
-
-<div align="center">
-  <div align="center">
-    <img src="doc/robot.png"  width="70%" />
-  </div>
-  <font color=#a0a0a0 size=2>Qisheng L1 mobile chassis.</font>
-</div>
-
-**notes**: The experimental platform is the Qisheng L1 mobile chassis, which features dual-wheel differential steering. It is equipped with a Velodyne VLP-16 and an external IMU, using an Intel Core i5 as the computing platform. Please note that our IMU and LiDAR have not undergone hardware time synchronization, and the extrinsics betweenthe LiDAR and IMU have not been strictly calibrated.
 
 ##  Dataset
 
