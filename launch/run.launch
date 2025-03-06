@@ -1,0 +1,14 @@
+<launch>
+  <arg name="project" default="adaptive_lio"/>
+  <!-- <param name="/use_sim_time" value="true" /> -->
+  <arg name="rviz" default="true" />
+
+  <!-- subscribe topic from bags -->
+  <!-- <node pkg="$(arg project)"  type="$(arg project)"  name="$(arg project)"  output="screen" launch-prefix="xterm -e gdb"/> -->
+  <node pkg="$(arg project)" type="$(arg project)" name="$(arg project)" output="screen" required="true"/>
+
+  <group if="$(arg rviz)">
+    <node launch-prefix="nice" pkg="rviz" type="rviz" name="$(arg project)_rviz" args="-d $(find adaptive_lio)/launch/rviz.rviz" />
+  </group>
+
+</launch>

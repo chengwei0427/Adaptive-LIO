@@ -23,7 +23,7 @@
 
 <div align="center">
     </br>
-    <a href="https://ieeexplore.ieee.pubapi.xyz/document/10806842" target='_blank'>
+    <a href="https://ieeexplore.ieee.org/document/10806842" target='_blank'>
         <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-lightblue">
     </a>&nbsp;
     <a href="https://hits.seeyoufarm.com">
@@ -39,6 +39,7 @@ The emerging Internet of Things (IoT) applications, such as driverless cars, hav
 ## :memo: Updates
 
 - \[2024.12\] - **Adaptive-lio** is accepted to JIOT 2024. :rocket:
+- \[2025.03\] - **Code release**
 
 # Data Sequence without strict time synchronization and calibration
 
@@ -136,25 +137,54 @@ The emerging Internet of Things (IoT) applications, such as driverless cars, hav
 
 </table>
 
-## Comparison with others
-<div align="center"><img src="doc/comparison.png"  width="70%" /></div>
 
-<div align="center">
-  <div align="center">
-    <img src="doc/park1-01.png"  width="70%" />
-  </div>
-  <font color=#a0a0a0 size=2>The performance of all algorithms on the parking1 dataset.</font>
-</div>
 
-<div align="center">
-  <div align="center">    
-    <img src="doc/park1-02.png"  width="70%" />
-  </div>
-  <font color=#a0a0a0 size=2>Z-axis errors.</font> 
-</div>
+## Quickly Run
 
-## Over-range detection
-![image](https://github.com/user-attachments/assets/a345ca50-69ea-49a2-8e38-7a8e7c9e3d4f)
+### Dependencies
+
+- ceres 2.10
+- opencv
+- Eigen3
+- yaml-cpp
+  
+### Usage
+
+1. Prerequisites
+   **Ubuntu and ROS**
+   Ubuntu >= 18.04. And Ubuntu 20.04 is recommended.
+
+2. **livox_ros_driver**
+   ```bash
+    git clone https://github.com/Livox-SDK/Livox-SDK
+    cd Livox-SDK
+    mkdir build
+    cd build
+    cmake ..
+    make -j
+    sudo make install
+    ```
+
+3. **glog**
+   ```bash
+    sudo apt-get install -y libgoogle-glog-dev
+    ```
+
+4. build
+   ```bash
+    cd ~/catkin_ws/src
+    git clone https://github.com/chengwei0427/Adaptive-LIO.git
+    cd ..
+    catkin_make
+    ```
+
+
+5. Run
+   ```bash
+    source devel/setup.bash
+    roslaunch adaptive_lio run.launch
+    ```
+   
 
 ## Contributors
 
