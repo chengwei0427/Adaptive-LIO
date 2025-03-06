@@ -18,10 +18,10 @@
     <sup>4</sup>UESTC&nbsp;&nbsp;&nbsp;
     <sup>5</sup> NTU
     </br></br>
-    (#-co-first authors)        (*-corresponding authors)
+    #-co-first authors            *-corresponding authors
 </div>
 
-<div align="center">
+<div align="center"> 
     </br>
     <a href="https://ieeexplore.ieee.org/document/10806842" target='_blank'>
         <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-lightblue">
@@ -29,6 +29,11 @@
     <a href="https://hits.seeyoufarm.com">
         <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fchengwei0427%2FAdaptive-LIO&count_bg=%2300B48B&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"/>
   </a>
+  <a ><img alt="PRs-Welcome" src="https://img.shields.io/badge/PRs-Welcome-white" /></a>
+  <a >
+    <img alt="FORK" src="https://img.shields.io/github/forks/chengwei0427/Adaptive-LIO?color=white" />
+    </a>
+
 </div>
 
 # About
