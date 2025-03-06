@@ -196,6 +196,9 @@ We kindly recommend to cite [our paper](https://ieeexplore.ieee.org/document/108
   doi={10.1109/JIOT.2024.3519533}}
 ```
 
+## Acknowledgments
+
+Thanks for [CT-ICP](https://github.com/jedeschaud/ct_icp), [SR-LIO](https://github.com/ZikangYuan/sr_lio) and [slam_in_autonomous_driving](https://github.com/gaoxiang12/slam_in_autonomous_driving).
 
 ## Contributors
 
