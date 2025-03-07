@@ -33,12 +33,17 @@
   <a >
     <img alt="FORK" src="https://img.shields.io/github/forks/chengwei0427/Adaptive-LIO?color=white" />          
     </a>
-    <a href='https://services.arxiv.org/html/submission/6258076/view'>
+<!--     <a href='https://services.arxiv.org/html/submission/6258076/view'>
         <img src="![1](https://github.com/user-attachments/assets/4a0b642c-d20b-4f4b-94d0-c10a688736bb)" />
     </a>
+ -->
+    <a href='https://services.arxiv.org/html/submission/6258076/view'>
+        <img src="https://github.com/user-attachments/assets/c6fccd5a-1a9e-4fd3-9ea1-2d561abe76a3" />
+    </a>
+
 </div>
 
-[[IEEE RA-L](https://ieeexplore.ieee.org/document/9681177)] [[ArXiv](https://arxiv.org/abs/2110.00605)] [[Video](https://www.youtube.com/watch?v=APot6QP_wvg)] [[Code](https://github.com/vectr-ucla/direct_lidar_odometry)]
+
 
 # About
 The emerging Internet of Things (IoT) applications, such as driverless cars, have a growing demand for high-precision positioning and navigation. Nowadays, LiDAR inertial odometry becomes increasingly prevalent in robotics and autonomous driving. However, many current SLAM systems lack sufficient adaptability to various scenarios. Challenges include decreased point cloud accuracy with longer frame intervals under the constant velocity assumption, coupling of erroneous IMU information when IMU saturation occurs, and decreased localization accuracy due to the use of fixed-resolution maps during indoor-outdoor scene transitions. To address these issues, we propose a loosely coupled adaptive LiDAR-Inertial-Odometry named **Adaptive-LIO**, which incorporates adaptive segmentation to enhance mapping accuracy, adapts motion modality through IMU saturation and fault detection, and adjusts map resolution adaptively using multi-resolution voxel maps based on the distance from the LiDAR center. Our proposed method has been tested in various challenging scenarios, demonstrating the effectiveness of the improvements we introduce.
