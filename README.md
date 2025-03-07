@@ -26,8 +26,7 @@
     <a href="https://ieeexplore.ieee.org/document/10806842" target='_blank'>
         <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-lightblue">
     </a>&nbsp;
- 	<a >
-    <img Alt="Axiv" src="https://github.com/user-attachments/assets/ed033c87-49d6-4d25-9cb9-a90d5c4111b6" width="3%"/>          
+ 	<a ><img Alt="Axiv" src="https://github.com/user-attachments/assets/ed033c87-49d6-4d25-9cb9-a90d5c4111b6" width="3%"/>          
     </a>&nbsp;
     <a href="https://hits.seeyoufarm.com">
         <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fchengwei0427%2FAdaptive-LIO&count_bg=%2300B48B&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"/>
