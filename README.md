@@ -24,9 +24,7 @@
 <div align="center">
     <a href="https://hits.seeyoufarm.com">
         <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fchengwei0427%2FAdaptive-LIO&count_bg=%2300B48B&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"/></a>
-
-    <a href="https://arxiv.org/submit/6258076/view"><img src='https://img.shields.io/badge/ArXiv-Adaptive_LIO-red
-' alt='Paper PDF'></a>
+        <a href="https://arxiv.org/submit/6258076/view"><img src='https://img.shields.io/badge/ArXiv-Adaptive_LIO-red' alt='Paper PDF'></a>
 
 [![GitHub Stars](https://img.shields.io/github/stars/chengwei0427/Adaptive-LIO)](https://github.com/chengwei0427/Adaptive-LIO/stargazers) 
 [![GitHub Issues](https://img.shields.io/github/issues/chengwei0427/Adaptive-LIO)](https://github.com/chengwei0427/Adaptive-LIO/issues)
