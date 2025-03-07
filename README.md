@@ -26,21 +26,15 @@
     <a href="https://ieeexplore.ieee.org/document/10806842" target='_blank'>
         <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-lightblue">
     </a>&nbsp;
+ 	<a >
+    <img Alt="Axiv" src="https://github.com/user-attachments/assets/ed033c87-49d6-4d25-9cb9-a90d5c4111b6" width="4%"/>          
+    </a>&nbsp;
     <a href="https://hits.seeyoufarm.com">
         <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fchengwei0427%2FAdaptive-LIO&count_bg=%2300B48B&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"/>
   </a>
   <a ><img alt="PRs-Welcome" src="https://img.shields.io/badge/PRs-Welcome-white" /></a>
-  <a >
-    <img alt="FORK" src="https://img.shields.io/github/forks/chengwei0427/Adaptive-LIO?color=white" />          
+      <img alt="FORK" src="https://img.shields.io/github/forks/chengwei0427/Adaptive-LIO?color=white" />          
     </a>
-<!--     <a href='https://services.arxiv.org/html/submission/6258076/view'>
-        <img src="![1](https://github.com/user-attachments/assets/4a0b642c-d20b-4f4b-94d0-c10a688736bb)" />
-    </a>
- -->
-    <a href='https://services.arxiv.org/html/submission/6258076/view'>
-        <img src="https://github.com/user-attachments/assets/c6fccd5a-1a9e-4fd3-9ea1-2d561abe76a3" />
-    </a>
-
 </div>
 
 
