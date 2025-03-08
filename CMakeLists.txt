@@ -38,7 +38,6 @@ add_definitions(-DROOT_DIR=\"${CMAKE_CURRENT_SOURCE_DIR}/\")
 catkin_package(
   CATKIN_DEPENDS geometry_msgs nav_msgs roscpp rospy std_msgs
   DEPENDS EIGEN3 PCL Ceres 
-  INCLUDE_DIRS include
 )
 
 include(cmake/packages.cmake)
