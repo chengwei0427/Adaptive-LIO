@@ -29,7 +29,7 @@ find_package(catkin REQUIRED COMPONENTS
   rosbag
   std_msgs
   tf
-  livox_ros_driver  ## for livox
+  # livox_ros_driver  ## for livox
   eigen_conversions
   message_generation
 )
@@ -46,4 +46,5 @@ include_directories(${PROJECT_SOURCE_DIR})
 include_directories(${PROJECT_SOURCE_DIR}/src)
 include_directories(${PROJECT_SOURCE_DIR}/thirdparty/sophus)
 
+add_subdirectory(thirdparty/livox_ros_driver)
 add_subdirectory(src)
