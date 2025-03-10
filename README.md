@@ -24,7 +24,7 @@
 <div align="center">
     <a href="https://hits.seeyoufarm.com">
         <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fchengwei0427%2FAdaptive-LIO&count_bg=%2300B48B&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"/></a>
-        <a href="https://arxiv.org/submit/6258076/view"><img src='https://img.shields.io/badge/ArXiv-Adaptive_LIO-red' alt='Paper PDF'></a>
+        <a href="http://arxiv.org/abs/2503.05077"><img src='https://img.shields.io/badge/ArXiv-Adaptive_LIO-red' alt='Paper PDF'></a>
 
 [![GitHub Stars](https://img.shields.io/github/stars/chengwei0427/Adaptive-LIO)](https://github.com/chengwei0427/Adaptive-LIO/stargazers) 
 [![GitHub Issues](https://img.shields.io/github/issues/chengwei0427/Adaptive-LIO)](https://github.com/chengwei0427/Adaptive-LIO/issues)
@@ -42,7 +42,7 @@ The emerging Internet of Things (IoT) applications, such as driverless cars, hav
 ## :memo: Updates
 
 - \[2024.12\] - **Adaptive-lio** is accepted to JIOT 2024. :rocket:
-- \[2025.03\] - **Code release**
+- \[2025.03\] -   Source code released  **🎉**
 
 
 ##  Dataset
@@ -143,25 +143,16 @@ The emerging Internet of Things (IoT) applications, such as driverless cars, hav
 
 1. Prerequisites
    **Ubuntu and ROS**
+
    Ubuntu >= 18.04. And Ubuntu 20.04 is recommended.
 
-2. **livox_ros_driver**
-   ```bash
-    git clone https://github.com/Livox-SDK/Livox-SDK
-    cd Livox-SDK
-    mkdir build
-    cd build
-    cmake ..
-    make -j
-    sudo make install
-    ```
 
-3. **glog**
+2. **glog**
    ```bash
     sudo apt-get install -y libgoogle-glog-dev
     ```
 
-4. build
+3. build
    ```bash
     cd ~/catkin_ws/src
     git clone https://github.com/chengwei0427/Adaptive-LIO.git
@@ -170,7 +161,7 @@ The emerging Internet of Things (IoT) applications, such as driverless cars, hav
     ```
 
 
-5. Run
+4. Run
    ```bash
     source devel/setup.bash
     roslaunch adaptive_lio run.launch
