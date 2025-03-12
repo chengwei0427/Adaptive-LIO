@@ -24,12 +24,15 @@
 <div align="center">
     <a href="https://hits.seeyoufarm.com">
         <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fchengwei0427%2FAdaptive-LIO&count_bg=%2300B48B&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"/></a>
+        <a href="https://ieeexplore.ieee.org/document/10806842"><img src="https://img.shields.io/badge/Paper-IEEE JIOT2024-004088.svg"/></a>
         <a href="http://arxiv.org/abs/2503.05077"><img src='https://img.shields.io/badge/ArXiv-Adaptive_LIO-red' alt='Paper PDF'></a>
 
 [![GitHub Stars](https://img.shields.io/github/stars/chengwei0427/Adaptive-LIO)](https://github.com/chengwei0427/Adaptive-LIO/stargazers) 
-[![GitHub Issues](https://img.shields.io/github/issues/chengwei0427/Adaptive-LIO)](https://github.com/chengwei0427/Adaptive-LIO/issues)
 [![GitHub Forks](https://img.shields.io/github/forks/chengwei0427/Adaptive-LIO)](https://github.com/chengwei0427/Adaptive-LIO/fork)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)<a href="https://github.com/chengwei0427/Adaptive-LIO/main/"><img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" /></a>
+[![GitHub Issues](https://img.shields.io/github/issues/chengwei0427/Adaptive-LIO)](https://github.com/chengwei0427/Adaptive-LIO/issues)
+<a ><img alt="PRs-Welcome" src="https://img.shields.io/badge/PRs-Welcome-red" /></a>
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+<a href="https://github.com/chengwei0427/Adaptive-LIO/main/"><img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" /></a>
 
 </div>
 
