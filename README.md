@@ -1,5 +1,6 @@
 <div align="center">
-    <h1><strong>Adaptive-LIO: Enhancing Robustness and Precision through Environmental Adaptation in LiDAR Inertial Odometry</strong></h1>
+    <h1><strong>Adaptive-LIO<strong></h1>
+    <h2><strong>Enhancing Robustness and Precision through Environmental Adaptation in LiDAR Inertial Odometry</strong></h2>
     <a href="https://github.com/chengwei0427" target='_blank'>Chengwei Zhao</a><sup>1,2,*</sup>&nbsp;&nbsp;&nbsp;
     <a href="https://github.com/KJ-Falloutlast" target='_blank'>Kun hu</a><sup>3,*</sup>&nbsp;&nbsp;&nbsp;
     <a href="https://github.com/jiejie567" target='_blank'>Jie Xu</a><sup>1,5,†</sup>&nbsp;&nbsp;&nbsp;
