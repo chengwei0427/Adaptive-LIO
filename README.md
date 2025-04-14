@@ -1,12 +1,9 @@
 <div align="center">
-    <h2><strong>Adaptive-LIO: Enhancing Robustness and Precision through Environmental Adaptation in LiDAR Inertial Odometry</strong></h2>
-</div>
-
-<div align="center">
-    <a href="https://github.com/chengwei0427" target='_blank'>Chengwei Zhao</a><sup>#,1,2</sup>&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/KJ-Falloutlast" target='_blank'>Kun hu</a><sup>#,3</sup>&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/jiejie567" target='_blank'>Jie Xu</a><sup>*,1,5</sup>&nbsp;&nbsp;&nbsp;
-    <a href="https://orcid.org/0000-0002-9108-8276" target='_blank'>Lijun Zhao</a><sup>*,1</sup>&nbsp;&nbsp;&nbsp;
+    <h1><strong>Adaptive-LIO: Enhancing Robustness and Precision through Environmental Adaptation in LiDAR Inertial Odometry</strong></h1>
+    <a href="https://github.com/chengwei0427" target='_blank'>Chengwei Zhao</a><sup>1,2,*</sup>&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/KJ-Falloutlast" target='_blank'>Kun hu</a><sup>3,*</sup>&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/jiejie567" target='_blank'>Jie Xu</a><sup>1,5,†</sup>&nbsp;&nbsp;&nbsp;
+    <a href="https://orcid.org/0000-0002-9108-8276" target='_blank'>Lijun Zhao</a><sup>1,†</sup>&nbsp;&nbsp;&nbsp;
     <a href="https://orcid.org/0009-0009-0503-8810" target='_blank'>Baiwen Han</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
     <a href="https://orcid.org/0009-0005-3938-7454" target='_blank'>Kaidi Wu</a><sup>3</sup>
     <a href="https://orcid.org/0009-0007-0403-8961" target='_blank'>Maoshan Tian</a><sup>4</sup>
@@ -18,7 +15,7 @@
     <sup>4</sup>UESTC&nbsp;&nbsp;&nbsp;
     <sup>5</sup> NTU
     </br></br>
-    #-co-first authors            *-corresponding authors
+    (* Equal contribution,   † Corresponding author)  
 </div>
 
 <div align="center">
@@ -36,11 +33,18 @@
 
 </div>
 
+<p align="center">
+  <img src="doc/result.png" width="80%">
+  <br><em>The mapping details of Adaptive-LIO and other algorithms.</em>
+</p>
 
-# About
+## Overview
 The emerging Internet of Things (IoT) applications, such as driverless cars, have a growing demand for high-precision positioning and navigation. Nowadays, LiDAR inertial odometry becomes increasingly prevalent in robotics and autonomous driving. However, many current SLAM systems lack sufficient adaptability to various scenarios. Challenges include decreased point cloud accuracy with longer frame intervals under the constant velocity assumption, coupling of erroneous IMU information when IMU saturation occurs, and decreased localization accuracy due to the use of fixed-resolution maps during indoor-outdoor scene transitions. To address these issues, we propose a loosely coupled adaptive LiDAR-Inertial-Odometry named **Adaptive-LIO**, which incorporates adaptive segmentation to enhance mapping accuracy, adapts motion modality through IMU saturation and fault detection, and adjusts map resolution adaptively using multi-resolution voxel maps based on the distance from the LiDAR center. Our proposed method has been tested in various challenging scenarios, demonstrating the effectiveness of the improvements we introduce.
 
-<img src="doc/overview.png" align="center" width="80%">
+<p align="center">
+  <img src="doc/overview.png" width="80%">
+  <br><em>The system flow of Adaptive-LIO.</em>
+</p>
 
 ## :memo: Updates
 
@@ -48,7 +52,7 @@ The emerging Internet of Things (IoT) applications, such as driverless cars, hav
 - \[2025.03\] -   Source code released  **🎉**
 
 
-##  Dataset
+## 📁 Dataset
 
 <table>
   <tr>
@@ -89,7 +93,7 @@ The emerging Internet of Things (IoT) applications, such as driverless cars, hav
 
 </table>
 
-## End-to-end errors
+### End-to-end errors
 
 <table>
   <tr>
@@ -133,7 +137,7 @@ The emerging Internet of Things (IoT) applications, such as driverless cars, hav
 
 
 
-## Quickly Run
+## 🕹️Quickly Run
 
 ### Dependencies
 
@@ -173,6 +177,7 @@ The emerging Internet of Things (IoT) applications, such as driverless cars, hav
 
 ## Publications
 
+If your like our projects, please cite us and support us with a star 🌟.
 We kindly recommend to cite [our paper](https://ieeexplore.ieee.org/document/10806842) if you find this library useful:
 
 ```latex
