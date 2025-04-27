@@ -185,12 +185,12 @@ We kindly recommend to cite [our paper](https://ieeexplore.ieee.org/document/108
 @ARTICLE{10806842,
   author={Zhao, Chengwei and Hu, Kun and Xu, Jie and Zhao, Lijun and Han, Baiwen and Wu, Kaidi and Tian, Maoshan and Yuan, Shenghai},
   journal={IEEE Internet of Things Journal}, 
-  title={Adaptive-LIO: Enhancing Robustness and Precision through Environmental Adaptation in LiDAR Inertial Odometry}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-1},
-  keywords={Accuracy;Laser radar;Odometry;Motion segmentation;Simultaneous localization and mapping;Internet of Things;Robots;Feature extraction;Trajectory;Robustness;LiDAR Inertial Odometry;Adaptive;SLAM;Multi-Resolution Map},
+  title={Adaptive-LIO: Enhancing Robustness and Precision Through Environmental Adaptation in LiDAR Inertial Odometry}, 
+  year={2025},
+  volume={12},
+  number={9},
+  pages={12123-12136},
+  keywords={Accuracy;Laser radar;Odometry;Motion segmentation;Simultaneous localization and mapping;Internet of Things;Robots;Feature extraction;Trajectory;Robustness;Adaptive;LiDAR inertial odometry (LIO);multiresolution map;SLAM},
   doi={10.1109/JIOT.2024.3519533}}
 ```
 
